@@ -64,7 +64,7 @@ nav button:hover {
 /* Home Page */
 
 .hero {
-  background-image: url("../src/img/pexels-ravinepz-7558099.jpg");
+  background-image: url("./img/pexels-ravinepz-7558099.jpg");
   background-size: cover;
   background-position: center;
   height: 400px;

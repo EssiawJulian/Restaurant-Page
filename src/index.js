@@ -1,4 +1,15 @@
 import "./style.css";
+import ponev from "./img/pexels-valeriya-1199957.jpg";
+import pr7 from "./img/pexels-rajesh-tp-749235-1633525.jpg";
+import pv18 from "./img/pexels-valeriya-1833349.jpg";
+import appetizer1 from "./img/appetizer1.jpg";
+import appetizer2 from "./img/appetizer2.jpg";
+import main1 from "./img/main2.jpg";
+import main2 from "./img/main1.jpg";
+import dessert1 from "./img/dessert1.jpg";
+import dessert2 from "./img/dessert2.jpg";
+import beverage1 from "./img/beverage1.jpg";
+import beverage2 from "./img/beverage2.jpg";
 
 console.log("Hello world from index.js!");
 
@@ -37,7 +48,7 @@ const loadContent = (() => {
     const highlights = document.createElement("div");
     highlights.classList.add("highlights");
     highlights.innerHTML = `<div class="highlight">
-          <img src="../src/img/pexels-valeriya-1199957.jpg" alt="Special Dish 1" />
+          <img src="${ponev}" alt="Special Dish 1" />
           <h3>Signature Dish</h3>
           <p>
             Our signature dish is a must-try. A perfect blend of flavors and
@@ -45,7 +56,7 @@ const loadContent = (() => {
           </p>
         </div>
         <div class="highlight">
-          <img src="../src/img/pexels-rajesh-tp-749235-1633525.jpg" alt="Special Dish 2" />
+          <img src="${pr7}" alt="Special Dish 2" />
           <h3>Chef's Special</h3>
           <p>
             Each week, our chef creates a special dish that showcases seasonal
@@ -53,7 +64,7 @@ const loadContent = (() => {
           </p>
         </div>
         <div class="highlight">
-          <img src="../src/img/pexels-valeriya-1833349.jpg" alt="Special Dish 3" />
+          <img src="${pv18}" alt="Special Dish 3" />
           <h3>Customer Favorite</h3>
           <p>
             Our customers can't get enough of this dish. Find out why it's a
@@ -75,7 +86,7 @@ const loadContent = (() => {
         <div class="menu-category">
           <h3>Appetizers</h3>
           <div class="menu-item">
-            <img src="../src/img/appetizer1.jpg" alt="Appetizer 1" />
+            <img src="${appetizer1}" alt="Appetizer 1" />
             <div class="menu-item-info">
               <h4>Bruschetta</h4>
               <p>
@@ -85,7 +96,7 @@ const loadContent = (() => {
             <div class="menu-item-price">$8.00</div>
           </div>
           <div class="menu-item">
-            <img src="../src/img/appetizer2.jpg" alt="Appetizer 2" />
+            <img src="${appetizer2}" alt="Appetizer 2" />
             <div class="menu-item-info">
               <h4>Stuffed Mushrooms</h4>
               <p>Button mushrooms stuffed with a savory cheese filling.</p>
@@ -97,7 +108,7 @@ const loadContent = (() => {
         <div class="menu-category">
           <h3>Main Courses</h3>
           <div class="menu-item">
-            <img src="../src/img/main1.jpg" alt="Main Course 1" />
+            <img src="${main1}" alt="Main Course 1" />
             <div class="menu-item-info">
               <h4>Grilled Salmon</h4>
               <p>
@@ -108,7 +119,7 @@ const loadContent = (() => {
             <div class="menu-item-price">$18.00</div>
           </div>
           <div class="menu-item">
-            <img src="../src/img/main2.jpg" alt="Main Course 2" />
+            <img src="${main2}" alt="Main Course 2" />
             <div class="menu-item-info">
               <h4>Spaghetti Carbonara</h4>
               <p>
@@ -122,7 +133,7 @@ const loadContent = (() => {
         <div class="menu-category">
           <h3>Desserts</h3>
           <div class="menu-item">
-            <img src="../src/img/dessert1.jpg" alt="Dessert 1" />
+            <img src="${dessert1}" alt="Dessert 1" />
             <div class="menu-item-info">
               <h4>Tiramisu</h4>
               <p>
@@ -133,7 +144,7 @@ const loadContent = (() => {
             <div class="menu-item-price">$7.00</div>
           </div>
           <div class="menu-item">
-            <img src="../src/img/dessert2.jpg" alt="Dessert 2" />
+            <img src="${dessert2}" alt="Dessert 2" />
             <div class="menu-item-info">
               <h4>Chocolate Lava Cake</h4>
               <p>
@@ -148,7 +159,7 @@ const loadContent = (() => {
         <div class="menu-category">
           <h3>Beverages</h3>
           <div class="menu-item">
-            <img src="../src/img/beverage1.jpg" alt="Beverage 1" />
+            <img src="${beverage1}" alt="Beverage 1" />
             <div class="menu-item-info">
               <h4>House Wine</h4>
               <p>Choice of red or white, selected by our sommelier.</p>
@@ -156,7 +167,7 @@ const loadContent = (() => {
             <div class="menu-item-price">$6.00</div>
           </div>
           <div class="menu-item">
-            <img src="../src/img/beverage2.jpg" alt="Beverage 2" />
+            <img src="${beverage2}" alt="Beverage 2" />
             <div class="menu-item-info">
               <h4>Cocktails</h4>
               <p>
